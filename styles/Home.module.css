@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: darkslateblue;
   text-decoration: none;
 }
 
@@ -88,8 +88,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: darkslateblue;
+  border-color: darkslateblue;
 }
 
 .card h2 {
@@ -113,4 +113,12 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.button {
+  background-color: darkslateblue;
+  color: white;
+  padding: 0.5rem;
+
+  border-radius: 10%;
 }
