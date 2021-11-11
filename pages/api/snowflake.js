@@ -13,8 +13,8 @@ export default async function getData(req, res) {
       },
 
       body: JSON.stringify({
-        query: `query MyQuery {unsplash_Random_Photo {
-          urls {
+        query: `query MyQuery {unsplash_Random_Photo_By_Query(query: "snowflake") {
+  urls {
             full
           }
         }
