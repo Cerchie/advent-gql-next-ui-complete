@@ -39,6 +39,8 @@ export default function Home() {
                 alt="snowflake"
                 width="100%"
                 height="100%"
+                priority={true}
+                loading="eager"
               />
               <div>
                 <button className={styles.button}>Submit</button>
